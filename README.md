@@ -14,13 +14,15 @@ hash hash[n] will encrypt seed[n+1]. Thus the parallel operation has now been se
 
 Lock whatever funds with nth hash.
 
-#Advantages
+# Advantages
 
 The timelock creator could generate the hashes sporadically until they feel comfortable with the accumualted hash rate.
 
-#Use Case
+# Use Case
 
-A rip cord like 
+The proposed use case is the for the ability of the creator of the timelock to create a contract that automatically transfer funds to another address if hash[n] is presented to it. Presumably this takes HR*N computation time.  The creator then has that much time to either reclaim the funds.  Great for emergency scenarios. 
+
+WARNING: Recall, you cant use this for selective secret releasing on the chain unless you want that secret to be revealed regardless.  
 
 # To Run
 terminal #1
