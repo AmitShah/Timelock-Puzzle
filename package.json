@@ -1,0 +1,16 @@
+{
+  "name": "time-lock-puzzle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Amit Shah",
+  "license": "MIT",
+  "dependencies": {
+    "multiprocessing": "^1.1.1",
+    "sjcl": "^1.0.7",
+    "sjcl-all": "^1.0.1"
+  }
+}
