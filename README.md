@@ -1,5 +1,5 @@
 # Timelock-Puzzle
-POC timelock puzzle 
+POC timelock puzzle
 
 
 This proof of concept generates a simple timelock puzzle.
